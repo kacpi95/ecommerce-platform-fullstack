@@ -4,7 +4,7 @@ import HEART from '../../assets/heart.svg';
 import styles from './IconMenu.module.css';
 
 export function IconMenu() {
-  const cartItems = 2;
+  const cartItems = 9;
   return (
     <div>
       <ul className={styles.iconMenu}>
