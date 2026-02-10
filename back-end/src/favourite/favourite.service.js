@@ -1,4 +1,4 @@
-import { prisma } from '../prisma/client';
+import { prisma } from '../prisma/client.js';
 
 export const getAll = () => {
   return prisma.favourite.findMany({
@@ -9,9 +9,9 @@ export const getAll = () => {
 };
 
 export const add = (productId) => {
-  return prisma.favourite.create({ data: { productId } });
+  return prisma.favourite.create({ data: { productId: Number(productId) } });
 };
 
 export const remove = (id) => {
-  return prisma.favourite.delete({ where: { id } });
+  return prisma.favourite.delete({ where: { id: Number(id) } });
 };

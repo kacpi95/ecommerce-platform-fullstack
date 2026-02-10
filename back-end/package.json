@@ -1,22 +1,25 @@
 {
-    "name": "back-end",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "dev": "json-server --watch db.json"
-    },
-    "author": "",
-    "license": "ISC",
-    "dependencies": {
-        "@prisma/client": "^4.5.0",
-        "express": "^4.17.1",
-        "json-server": "^0.17.3",
-        "prisma": "^4.5.0",
-        "uuid": "^13.0.0"
-    },
-    "devDependencies": {
-        "mysql2": "^2.3.3"
-    }
+  "name": "back-end",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^4.5.0",
+    "express": "^4.17.1",
+    "json-server": "^0.17.3",
+    "prisma": "^4.5.0",
+    "uuid": "^13.0.0"
+  },
+  "devDependencies": {
+    "mysql2": "^2.3.3"
+  },
+  "prisma": {
+    "seed": "node prisma/seed.js"
+  }
 }
