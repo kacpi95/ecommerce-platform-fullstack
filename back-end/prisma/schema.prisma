@@ -9,3 +9,36 @@ datasource db {
   provider = "mysql"
   url      = env("DATABASE_URL")
 }
+
+model Product {
+  id              String @id @default(uuid())
+  gender          String
+  category        String
+  subcategory     String
+  productName     String
+  brand           String
+  pricePLN        Int
+  priceUSD        Int
+  description     String
+  maintenanceInfo String
+
+  photos          Photo[]
+  favourites      Favourite[]
+
+
+}
+
+model Photo {
+  id              String @id @default(uuid())
+  url             String
+  product         Product @relation(fields: [productId], references: [id])       
+  productId       String
+
+}
+
+model Favourite {
+  id              String @id @default(uuid())
+  product         Product @relation(fields: [productId], references: [id])
+  productId       String  @unique
+}
+
