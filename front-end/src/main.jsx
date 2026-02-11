@@ -12,14 +12,14 @@ import { Layout } from './components/Layout/Layout.jsx';
 import { mainPageLoader } from './api/mainPageLoader.js';
 import { productListLoader } from './api/productListLoader.js';
 import { productLoader } from './api/productLoader.js';
-import { addProdcutToFavourites } from './api/addProductToFavouritesAction.js';
+import { addProductToFavourites } from './api/addProductToFavouritesAction.js';
 import { favouritesLoader } from './api/favouritesLoader.js';
 import { deleteFavouriteAction } from './api/deleteFavouriteAction.js';
 
 const router = createBrowserRouter([
   {
     path: '/add-to-favourites/:productId',
-    action: addProdcutToFavourites,
+    action: addProductToFavourites,
   },
   {
     path: '/delete-from-favourites/:favouriteId',

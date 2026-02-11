@@ -4,10 +4,11 @@ import { Price } from '../Price/Price';
 
 export function CartProduct({ product }) {
   const price = <Price product={product} />;
+  const firstPhotoUrl = product?.photos?.[0]?.url;
 
   return (
     <div className={styles.favouriteProduct}>
-      <img src={`${product.photos[0]}`} />
+      <img src={firstPhotoUrl} alt={product.productName} />
       <div className={styles.favouriteProductInfo}>
         <div className={styles.topRow}>
           <h3>
@@ -20,8 +21,8 @@ export function CartProduct({ product }) {
           {price}
         </p>
         <div className={styles.buttonRow}>
-          <button>
-            <img src={REMOVE_IMG} />
+          <button type='button'>
+            <img src={REMOVE_IMG} alt='' />
             Usuń
           </button>
         </div>

@@ -3,24 +3,24 @@ import { FlexContainer } from '../FlexContainer/FlexContainer';
 import { useState } from 'react';
 
 export function Photos({ product }) {
-  const [currentPhoto, setCurrentPhoto] = useState(product.photos[0]);
+  const photos = product?.photos ?? [];
+  const [currentPhoto, setCurrentPhoto] = useState(photos[0]?.url);
+
   return (
     <FlexContainer>
       <div className={styles.thumbnails}>
-        {product.photos.map((photo) => {
-          return (
-            <img
-              className={currentPhoto === photo ? styles.active : ''}
-              key={photo}
-              src={photo}
-              onClick={() => {
-                setCurrentPhoto(photo);
-              }}
-            />
-          );
-        })}
+        {photos.map((photo) => (
+          <img
+            className={currentPhoto === photo.url ? styles.active : ''}
+            key={photo.id ?? photo.url}
+            src={photo.url}
+            alt=''
+            onClick={() => setCurrentPhoto(photo.url)}
+          />
+        ))}
       </div>
-      <img className={styles.mainPhoto} src={currentPhoto} />
+
+      <img className={styles.mainPhoto} src={currentPhoto} alt='' />
     </FlexContainer>
   );
 }

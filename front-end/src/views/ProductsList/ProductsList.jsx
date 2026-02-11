@@ -16,7 +16,7 @@ export function ProductsList() {
 
   if (params.subcategory) {
     foundSubcategory = foundCategory.subcategories.find(
-      (sc) => sc.path === params.foundSubcategory
+      (sc) => sc.path === params.subcategory
     );
   }
   return (

@@ -16,7 +16,7 @@ export function productListLoader({
 
     if (subcategory) {
       const foundSubcategory = foundCategory.subcategories.find(
-        (sc) => sc.path === subcategory
+        (sc) => sc.path === subcategory,
       );
       if (foundSubcategory) {
         url = `${url}&subcategory=${subcategory}`;
@@ -24,12 +24,11 @@ export function productListLoader({
         return redirect('/kobieta');
       }
     }
-    url = `${url}&_limit8&_page=${page}`;
+    url = `${url}&_limit=8&_page=${page}`;
 
     return fetch(url).then((response) => {
-      const numberOfPages = Math.ceil(
-        Number(response.headers.get('X-Total-Count') / 8)
-      );
+      const total = Number(response.headers.get('X-Total-Count')) || 0;
+      const numberOfPages = Math.ceil(total / 8);
 
       return response.json().then((products) => {
         return { products, numberOfPages };

@@ -12,10 +12,11 @@ export function FavouriteProduct({ favourite }) {
   const [, addProductCart] = useContext(CartContext);
 
   const price = <Price product={product} />;
+  const firstPhotoUrl = product?.photos?.[0]?.url;
 
   return (
     <div className={styles.favouriteProduct}>
-      <img src={`${product.photos[0]}`} />
+      <img src={firstPhotoUrl} alt={product.productName} />
       <div className={styles.favouriteProductInfo}>
         <div className={styles.topRow}>
           <h3>
@@ -32,18 +33,19 @@ export function FavouriteProduct({ favourite }) {
             action={`/delete-from-favourites/${favourite.id}`}
             method='DELETE'
           >
-            <button>
-              <img src={REMOVE_IMG} />
+            <button type='submit'>
+              <img src={REMOVE_IMG} alt='' />
               Usuń
             </button>
           </Form>
 
           <button
+            type='button'
             onClick={() => {
               addProductCart(product);
             }}
           >
-            <img src={BAG_ICON} />
+            <img src={BAG_ICON} alt='' />
             Dodaj do koszyka
           </button>
         </div>

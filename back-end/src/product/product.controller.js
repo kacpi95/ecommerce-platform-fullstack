@@ -1,5 +1,5 @@
 import * as productService from './product.service.js';
-import { PATH_TO_ENDPOINT_MAPPING } from '../constants/api.js';
+import { PATH_TO_ENDPOINT_MAPPING } from '../constans/api.js';
 
 export const getProducts = async (req, res) => {
   try {
