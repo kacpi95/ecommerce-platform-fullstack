@@ -31,7 +31,15 @@ button {
   cursor: pointer;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+}
+
 body {
+  background: var(--color-white);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   font-size: var(--font-size-default);
   font-family: var(--font-family-default);
   color: var(--color-text-default);

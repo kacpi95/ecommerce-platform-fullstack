@@ -23,7 +23,7 @@ export function Product({ product }) {
         method='POST'
         action={`/add-to-favourites/${product.id}`}
       >
-        <button type='submit'>
+        <button type='submit' aria-label='Dodaj do ulubionych'>
           <div className={styles.heart}></div>
         </button>
       </Form>

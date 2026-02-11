@@ -1,33 +1,54 @@
 .product {
   position: relative;
+  display: block;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  background: var(--color-surface);
+  transition: transform 0.18s ease
 }
-.product button {
-  border: none;
+
+.product:hover {
+  transform: translateY(-4px);
 }
+
 .product img {
-  width: 250px;
-  height: 400px;
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
 }
+
 .product h3 {
   font-weight: 700;
-  margin: 0.5rem 0;
+  margin: 12px 14px 6px;
 }
+
 .product p {
+  margin: 0 14px 14px;
   color: var(--color-price);
-  margin-bottom: 1rem;
 }
+
+.product button {
+  border: none;
+  background: transparent;
+  padding: 0;
+}
+
 .heart {
   position: absolute;
-  top: 0.5rem;
-  left: 0.5rem;
-
-  width: 1.5rem;
-  height: 1.5rem;
-
+  top: 12px;
+  left: 12px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.9);
   background-image: url('../../assets/heart.svg');
-  background-repeat: none;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 18px 18px;
+  transition: transform 0.15s ease, background-image 0.15s ease;
 }
 
 .heart:hover {
+  transform: scale(1.05);
   background-image: url('../../assets/heartRed.svg');
 }

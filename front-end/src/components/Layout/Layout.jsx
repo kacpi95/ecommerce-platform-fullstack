@@ -11,6 +11,7 @@ import { CurrencyContext } from '../../contexts/CurrencyContext';
 import { useState } from 'react';
 import { CURRENCIES } from '../../constants/currencies';
 import { CartContext } from '../../contexts/CartContext';
+import style from './Layout.module.css';
 
 export function Layout() {
   const [currency, setCurrency] = useState(
@@ -31,7 +32,7 @@ export function Layout() {
     });
   }
   return (
-    <>
+    <div className={style.wrapper}>
       <CartContext.Provider value={[cartItems, addProductCart]}>
         <CurrencyContext.Provider value={[currency, setCurrency]}>
           <MainContent>
@@ -49,6 +50,6 @@ export function Layout() {
           <Footer />
         </CurrencyContext.Provider>
       </CartContext.Provider>
-    </>
+    </div>
   );
 }

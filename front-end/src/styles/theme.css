@@ -9,4 +9,13 @@ body {
   --color-grey: #f4f4f4;
   --color-theme-main: #056943;
   --color-price: #c60c0c;
+
+  --radius-sm: 10px;
+  --radius-md: 14px;
+  --radius-lg: 18px;
+
+  --container-max: 1120px;
+
+  --color-surface: #ffffff;
+  --color-border: rgba(34, 32, 32, 0.12);
 }
