@@ -1,20 +1,36 @@
 .categoryMenu {
-  background-color: var(--color-theme-main);
   width: 100%;
+  background-color: var(--color-theme-main);
 }
 
 .categoryMenu ul {
-  width: 100%;
-  max-width: 100rem;
-  margin: 0 auto;
-  padding: 1rem;
   display: flex;
-  gap: 1rem;
+  width: 100%;
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding: 10px 16px;
+  gap: 10px;
+  overflow-x: auto;
 }
+
 .categoryMenu ul li a {
+  display: inline-block;
+  white-space: nowrap;
+  padding: 10px 12px;
   color: var(--color-white);
+  border-radius: 50px;
+  opacity: 0.9;
+  transition:
+    opacity 0.15s ease,
+    background-color 0.15s ease;
+}
+
+.categoryMenu ul li a:hover {
+  opacity: 1;
+  background-color: rgba(255, 255, 255, 0.12);
 }
 
 .categoryMenu ul li a:global(.active) {
-  text-decoration: underline;
+  opacity: 1;
+  background-color: rgba(255, 255, 255, 0.2);
 }

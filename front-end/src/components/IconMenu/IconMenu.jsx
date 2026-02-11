@@ -2,9 +2,13 @@ import { Link } from 'react-router-dom';
 import BAG_ICON from '../../assets/bag.svg';
 import HEART from '../../assets/heart.svg';
 import styles from './IconMenu.module.css';
+import { useContext } from 'react';
+import { CartContext } from '../../contexts/CartContext';
 
 export function IconMenu() {
-  const cartItems = 9;
+  const [cartItems] = useContext(CartContext);
+  const count = cartItems.length;
+
   return (
     <div>
       <ul className={styles.iconMenu}>
@@ -16,7 +20,9 @@ export function IconMenu() {
         <li>
           <Link to='/koszyk'>
             <img src={BAG_ICON} alt='bag-icon' />
-            <div className={styles.numberOfProducts}>{cartItems}</div>
+            {count > 0 && (
+              <div className={styles.numberOfProducts}>{count}</div>
+            )}
           </Link>
         </li>
       </ul>

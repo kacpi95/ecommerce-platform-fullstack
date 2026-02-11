@@ -2,18 +2,46 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  gap: 1rem;
-  padding: 1rem;
+  gap: 18px;
+  padding: 0;
 }
+
 .mainMenu li a {
-  text-transform: uppercase;
-  color: var(--color-text-grey);
-  padding: 1rem 0;
+  position: relative;
   display: block;
+  padding: 10px 0;
+  color: var(--color-text-grey);
   font-weight: 700;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.mainMenu li a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -6px;
+  height: 2px;
+  transform: scaleX(0);
+  transform-origin: left;
+  opacity: 0.9;
+  background: var(--color-text-default);
+  transition: transform 0.18s ease;
+}
+
+.mainMenu li a:hover {
+  color: var(--color-text-default);
+}
+
+.mainMenu li a:hover::after {
+  transform: scaleX(1);
 }
 
 .mainMenu a:global(.active) {
   color: var(--color-text-default);
-  border-bottom: 3px solid var(--color-text-default);
+}
+
+.mainMenu a:global(.active)::after {
+  transform: scaleX(1);
 }
