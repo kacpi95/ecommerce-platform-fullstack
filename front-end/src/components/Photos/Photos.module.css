@@ -1,18 +1,36 @@
 .thumbnails {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 10px;
 }
+
 .thumbnails img {
-  width: 85px;
-  height: 120px;
+  width: 86px;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  border-radius: var(--radius-sm);
   cursor: pointer;
+  border: 2px solid transparent;
+  opacity: 0.9;
+  transition:
+    transform 0.12s ease,
+    opacity 0.12s ease,
+    border-color 0.12s ease;
 }
-.thumbnails img.active {
-  border: 2px solid var(--color-text-default);
+
+.thumbnails img:hover {
+  transform: translateY(-1px);
+  opacity: 1;
+}
+
+.active {
+  border-color: var(--color-text-default);
+  opacity: 1;
 }
 
 .mainPhoto {
-  width: 500px;
-  height: 700px;
+  width: min(520px, 100%);
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  border-radius: var(--radius-md);
 }

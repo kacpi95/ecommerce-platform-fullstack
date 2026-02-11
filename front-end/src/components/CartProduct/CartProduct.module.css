@@ -1,48 +1,66 @@
 .favouriteProduct {
-  padding: 1rem 0;
   display: flex;
-  gap: 3rem;
-  border-top: 1px solid var(--color-text-grey);
-  margin: 0.5rem 0;
+  padding: 14px 0;
+  margin: 0;
+  gap: 16px;
+  border-top: 1px solid var(--color-border);
 }
+
 .favouriteProduct img {
-  width: 85px;
-  height: 140px;
+  width: 96px;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  border-radius: var(--radius-sm);
+  background: var(--color-grey);
 }
 
 .favouriteProductInfo {
   display: flex;
   flex: 1;
   flex-direction: column;
+  gap: 10px;
 }
 
 .topRow {
   display: flex;
   justify-content: space-between;
-  font-size: 1.25rem;
-  margin-bottom: 1rem;
-  font-weight: 700;
-}
-.priceRow span {
-  color: var(--color-text-grey);
-  font-weight: normal;
+  align-items: flex-start;
+  gap: 14px;
+  font-weight: 800;
 }
 
-.priceRow p {
-  font-weight: 700;
+.priceRow span {
+  color: var(--color-text-grey);
+  font-weight: 400;
 }
+
 .buttonRow {
   display: flex;
-  gap: 2rem;
-  flex: 1;
-  align-items: flex-end;
+  gap: 12px;
+  margin-top: auto;
+  align-items: center;
 }
+
 .buttonRow button {
-  border: none;
-  background: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 12px;
+  border: 1px solid var(--color-border);
+  border-radius: 50px;
+  font-weight: 700;
+  background: var(--color-surface);
+  transition:
+    transform 0.12s ease,
+    background-color 0.12s ease;
 }
+
+.buttonRow button:hover {
+  transform: translateY(-1px);
+  background: #fafafa;
+}
+
 .buttonRow button img {
-  margin-right: 0.5rem;
-  width: 1rem;
-  height: 1rem;
+  width: 16px;
+  height: 16px;
 }

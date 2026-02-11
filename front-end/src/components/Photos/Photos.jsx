@@ -11,7 +11,7 @@ export function Photos({ product }) {
       <div className={styles.thumbnails}>
         {photos.map((photo) => (
           <img
-            className={currentPhoto === photo.url ? styles.active : ''}
+            className={`${currentPhoto === photo.url ? styles.active : ''}`}
             key={photo.id ?? photo.url}
             src={photo.url}
             alt=''
