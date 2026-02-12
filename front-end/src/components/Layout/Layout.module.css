@@ -1,6 +1,7 @@
 .wrapper {
   width: 100%;
   max-width: var(--container-max);
+  min-height: 100vh;
   padding: 0 16px;
   margin: 0 auto;
 }

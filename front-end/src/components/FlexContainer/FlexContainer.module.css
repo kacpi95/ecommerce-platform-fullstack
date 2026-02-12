@@ -1,8 +1,15 @@
 .flexContainer {
   display: flex;
-  gap: 1rem;
+  gap: 24px;
   width: 100%;
-  max-width: 100rem;
+  max-width: var(--container-max);
   margin: 0 auto;
   align-items: flex-start;
+  padding: 0 16px;
+}
+
+@media (max-width: 900px) {
+  .flexContainer {
+    flex-direction: column;
+  }
 }

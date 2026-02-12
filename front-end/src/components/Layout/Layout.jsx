@@ -32,9 +32,9 @@ export function Layout() {
     });
   }
   return (
-    <div className={style.wrapper}>
-      <CartContext.Provider value={[cartItems, addProductCart]}>
-        <CurrencyContext.Provider value={[currency, setCurrency]}>
+    <CartContext.Provider value={[cartItems, addProductCart]}>
+      <CurrencyContext.Provider value={[currency, setCurrency]}>
+        <div className={style.wrapper}>
           <MainContent>
             <TopBar>
               <MainMenu />
@@ -47,9 +47,9 @@ export function Layout() {
             <CategoryMenu />
             <Outlet />
           </MainContent>
-          <Footer />
-        </CurrencyContext.Provider>
-      </CartContext.Provider>
-    </div>
+        </div>
+        <Footer />
+      </CurrencyContext.Provider>
+    </CartContext.Provider>
   );
 }
