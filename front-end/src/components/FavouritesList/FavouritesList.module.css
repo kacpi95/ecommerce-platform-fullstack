@@ -1,5 +1,8 @@
 .favouritesList {
-  padding: 1rem;
+  width: 100%;
+  padding: 18px 18px 10px;
+  margin-top: 16px;
+  border-radius: var(--radius-md);
   background-color: var(--color-grey);
-  margin-top: 1rem;
+  border: 1px solid rgba(34, 32, 32, 0.06);
 }
