@@ -7,6 +7,9 @@
   align-items: flex-start;
   padding: 0 16px;
 }
+.flexContainer > * {
+  min-width: 0;
+}
 
 @media (max-width: 900px) {
   .flexContainer {
