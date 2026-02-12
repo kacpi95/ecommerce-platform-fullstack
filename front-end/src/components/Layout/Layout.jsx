@@ -31,8 +31,24 @@ export function Layout() {
       return newState;
     });
   }
+
+  function removeProductCart(productId) {
+    setCartItems((previousCartItems) => {
+      const index = previousCartItems.findIndex((p) => p.id === productId);
+      if (index === -1) return previousCartItems;
+
+      const newState = [
+        ...previousCartItems.slice(0, index),
+        ...previousCartItems.slice(index + 1),
+      ];
+      localStorage['cart_products'] = JSON.stringify(newState);
+      return newState;
+    });
+  }
   return (
-    <CartContext.Provider value={[cartItems, addProductCart]}>
+    <CartContext.Provider
+      value={[cartItems, addProductCart, removeProductCart]}
+    >
       <CurrencyContext.Provider value={[currency, setCurrency]}>
         <div className={style.wrapper}>
           <MainContent>
