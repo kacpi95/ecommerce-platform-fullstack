@@ -2,16 +2,30 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 0;
-  border-bottom: 1px solid var(--color-text-grey);
-  font-weight: 700;
+  padding: 14px 0;
+  border-bottom: 1px solid var(--color-border);
+  font-weight: 800;
   cursor: pointer;
+  user-select: none;
 }
 
-.item + p {
-  margin-top: 0.5rem;
+.item p {
+  color: var(--color-text-default);
+}
+
+.item img {
+  width: 18px;
+  height: 18px;
+  transition: transform 0.18s ease;
+  opacity: 0.85;
 }
 
 .expanded {
   transform: rotate(180deg);
+}
+
+.item + p {
+  margin: 12px 0 18px;
+  color: var(--color-text-grey);
+  line-height: 1.6;
 }

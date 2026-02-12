@@ -1,6 +1,6 @@
 .wrapper {
   width: 100%;
-  max-width: 100rem;
+  max-width: var(--container-max);
   margin: 0 auto;
-  padding: 0 1rem;
+  padding: 0 16px;
 }
