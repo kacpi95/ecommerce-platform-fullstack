@@ -102,8 +102,7 @@ async function main() {
       priceUSD: 10,
       photos: [
         'http://localhost:3000/product-photos/man-t-shirt-1.jpg',
-        'http://localhost:3000/product-photos/man-t-shirt-4.jpg',
-        'http://localhost:3000/product-photos/man-t-shirt-3.jpg',
+        'http://localhost:3000/product-photos/man-t-shirt-2.jpg',
       ],
       description:
         'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.',
@@ -120,9 +119,8 @@ async function main() {
       pricePLN: 49,
       priceUSD: 10,
       photos: [
-        'http://localhost:3000/product-photos/man-t-shirt-1.jpg',
-        'http://localhost:3000/product-photos/man-t-shirt-4.jpg',
         'http://localhost:3000/product-photos/man-t-shirt-3.jpg',
+        'http://localhost:3000/product-photos/man-t-shirt-4.jpg',
       ],
       description:
         'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.',
@@ -139,9 +137,8 @@ async function main() {
       pricePLN: 199,
       priceUSD: 49,
       photos: [
-        'http://localhost:3000/product-photos/man-t-shirt-4.jpg',
-        'http://localhost:3000/product-photos/man-t-shirt-3.jpg',
-        'http://localhost:3000/product-photos/man-t-shirt-4.jpg',
+        'http://localhost:3000/product-photos/man-t-shirt-5.jpg',
+        'http://localhost:3000/product-photos/man-t-shirt-6.jpg',
       ],
       description:
         'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.',
@@ -157,11 +154,7 @@ async function main() {
       brand: 'Sun Tzu',
       pricePLN: 199,
       priceUSD: 49,
-      photos: [
-        'http://localhost:3000/product-photos/man-t-shirt-3.jpg',
-        'http://localhost:3000/product-photos/man-t-shirt-4.jpg',
-        'http://localhost:3000/product-photos/man-t-shirt-1.jpg',
-      ],
+      photos: ['http://localhost:3000/product-photos/man-t-shirt-7.jpg'],
       description:
         'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.',
       maintenanceInfo:
@@ -260,8 +253,7 @@ async function main() {
       priceUSD: 10,
       photos: [
         'http://localhost:3000/product-photos/man-t-shirt-1.jpg',
-        'http://localhost:3000/product-photos/man-t-shirt-4.jpg',
-        'http://localhost:3000/product-photos/man-t-shirt-3.jpg',
+        'http://localhost:3000/product-photos/man-t-shirt-2.jpg',
       ],
       description:
         'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.',
@@ -277,11 +269,7 @@ async function main() {
       brand: 'Top Brand',
       pricePLN: 49,
       priceUSD: 10,
-      photos: [
-        'http://localhost:3000/product-photos/man-t-shirt-1.jpg',
-        'http://localhost:3000/product-photos/man-t-shirt-4.jpg',
-        'http://localhost:3000/product-photos/man-t-shirt-3.jpg',
-      ],
+      photos: ['http://localhost:3000/product-photos/man-t-shirt-7.jpg'],
       description:
         'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.',
       maintenanceInfo:
@@ -297,9 +285,8 @@ async function main() {
       pricePLN: 199,
       priceUSD: 49,
       photos: [
-        'http://localhost:3000/product-photos/man-t-shirt-4.jpg',
-        'http://localhost:3000/product-photos/man-t-shirt-3.jpg',
-        'http://localhost:3000/product-photos/man-t-shirt-4.jpg',
+        'http://localhost:3000/product-photos/man-t-shirt-6.jpg',
+        'http://localhost:3000/product-photos/man-t-shirt-5.jpg',
       ],
       description:
         'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.',
@@ -316,9 +303,8 @@ async function main() {
       pricePLN: 199,
       priceUSD: 49,
       photos: [
-        'http://localhost:3000/product-photos/man-t-shirt-3.jpg',
         'http://localhost:3000/product-photos/man-t-shirt-4.jpg',
-        'http://localhost:3000/product-photos/man-t-shirt-1.jpg',
+        'http://localhost:3000/product-photos/man-t-shirt-3.jpg',
       ],
       description:
         'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.',
@@ -329,15 +315,14 @@ async function main() {
       id: 5,
       gender: 'men',
       category: 'odziez',
-      subcategory: 'koszulki',
-      productName: 'T-shirt 4',
+      subcategory: 'swetry',
+      productName: 'Swetry',
       brand: 'Sun Tzu',
       pricePLN: 129,
       priceUSD: 39,
       photos: [
-        'http://localhost:3000/product-photos/man-t-shirt-4.jpg',
-        'http://localhost:3000/product-photos/man-t-shirt-3.jpg',
-        'http://localhost:3000/product-photos/man-t-shirt-4.jpg',
+        'http://localhost:3000/product-photos/man-sweater-1.jpg',
+        'http://localhost:3000/product-photos/man-sweater-2.jpg',
       ],
       description:
         'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.',
@@ -348,16 +333,12 @@ async function main() {
       id: 6,
       gender: 'men',
       category: 'odziez',
-      subcategory: 'koszulki',
-      productName: 'T-Shirt',
+      subcategory: 'swetry',
+      productName: 'Swetry',
       brand: 'Top Brand',
       pricePLN: 49,
       priceUSD: 10,
-      photos: [
-        'http://localhost:3000/product-photos/man-t-shirt-1.jpg',
-        'http://localhost:3000/product-photos/man-t-shirt-4.jpg',
-        'http://localhost:3000/product-photos/man-t-shirt-3.jpg',
-      ],
+      photos: ['http://localhost:3000/product-photos/man-sweater-3.jpg'],
       description:
         'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.',
       maintenanceInfo:
@@ -367,16 +348,12 @@ async function main() {
       id: 7,
       gender: 'men',
       category: 'odziez',
-      subcategory: 'koszulki',
-      productName: 'T-shirt 2',
+      subcategory: 'swetry',
+      productName: 'Swetry',
       brand: 'Sun Tzu',
       pricePLN: 199,
       priceUSD: 49,
-      photos: [
-        'http://localhost:3000/product-photos/man-t-shirt-4.jpg',
-        'http://localhost:3000/product-photos/man-t-shirt-3.jpg',
-        'http://localhost:3000/product-photos/man-t-shirt-4.jpg',
-      ],
+      photos: ['http://localhost:3000/product-photos/man-sweater-4.jpg'],
       description:
         'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.',
       maintenanceInfo:
@@ -386,15 +363,14 @@ async function main() {
       id: 8,
       gender: 'men',
       category: 'odziez',
-      subcategory: 'koszulki',
-      productName: 'T-shirt 3',
+      subcategory: 'swetry',
+      productName: 'Swetry',
       brand: 'Sun Tzu',
       pricePLN: 199,
       priceUSD: 49,
       photos: [
-        'http://localhost:3000/product-photos/man-t-shirt-3.jpg',
-        'http://localhost:3000/product-photos/man-t-shirt-4.jpg',
-        'http://localhost:3000/product-photos/man-t-shirt-1.jpg',
+        'http://localhost:3000/product-photos/man-sweater-1.jpg',
+        'http://localhost:3000/product-photos/man-sweater-2.jpg',
       ],
       description:
         'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.',
@@ -405,15 +381,14 @@ async function main() {
       id: 9,
       gender: 'men',
       category: 'odziez',
-      subcategory: 'koszulki',
-      productName: 'T-shirt 4',
+      subcategory: 'spodnie',
+      productName: 'Spodnie',
       brand: 'Sun Tzu',
       pricePLN: 129,
       priceUSD: 39,
       photos: [
-        'http://localhost:3000/product-photos/man-t-shirt-4.jpg',
-        'http://localhost:3000/product-photos/man-t-shirt-3.jpg',
-        'http://localhost:3000/product-photos/man-t-shirt-4.jpg',
+        'http://localhost:3000/product-photos/man-trousers-1.jpg',
+        'http://localhost:3000/product-photos/man-trousers-2.jpg',
       ],
       description:
         'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.',
@@ -424,15 +399,14 @@ async function main() {
       id: 10,
       gender: 'men',
       category: 'odziez',
-      subcategory: 'koszulki',
-      productName: 'T-Shirt',
+      subcategory: 'spodnie',
+      productName: 'Spodnie',
       brand: 'Top Brand',
       pricePLN: 49,
       priceUSD: 10,
       photos: [
-        'http://localhost:3000/product-photos/man-t-shirt-3.jpg',
-        'http://localhost:3000/product-photos/man-t-shirt-1.jpg',
-        'http://localhost:3000/product-photos/man-t-shirt-4.jpg',
+        'http://localhost:3000/product-photos/man-trousers-3.jpg',
+        'http://localhost:3000/product-photos/man-trousers-4.jpg',
       ],
       description:
         'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.',
@@ -443,15 +417,15 @@ async function main() {
       id: 11,
       gender: 'men',
       category: 'odziez',
-      subcategory: 'koszulki',
-      productName: 'T-shirt 2',
+      subcategory: 'spodnie',
+      productName: 'Spodnie',
       brand: 'Sun Tzu',
       pricePLN: 199,
       priceUSD: 49,
       photos: [
-        'http://localhost:3000/product-photos/man-t-shirt-4.jpg',
-        'http://localhost:3000/product-photos/man-t-shirt-3.jpg',
-        'http://localhost:3000/product-photos/man-t-shirt-4.jpg',
+        'http://localhost:3000/product-photos/man-trousers-5.jpg',
+        'http://localhost:3000/product-photos/man-trousers-6.jpg',
+        'http://localhost:3000/product-photos/man-trousers-7.jpg',
       ],
       description:
         'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.',
@@ -462,15 +436,15 @@ async function main() {
       id: 12,
       gender: 'men',
       category: 'odziez',
-      subcategory: 'koszulki',
-      productName: 'T-shirt 3',
+      subcategory: 'spodnie',
+      productName: 'Spodnie',
       brand: 'Sun Tzu',
       pricePLN: 199,
       priceUSD: 49,
       photos: [
-        'http://localhost:3000/product-photos/man-t-shirt-4.jpg',
-        'http://localhost:3000/product-photos/man-t-shirt-4.jpg',
-        'http://localhost:3000/product-photos/man-t-shirt-1.jpg',
+        'http://localhost:3000/product-photos/man-trousers-7.jpg',
+        'http://localhost:3000/product-photos/man-trousers-6.jpg',
+        'http://localhost:3000/product-photos/man-trousers-5.jpg',
       ],
       description:
         'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.',
@@ -480,16 +454,16 @@ async function main() {
     {
       id: 13,
       gender: 'men',
-      category: 'odziez',
-      subcategory: 'koszulki',
-      productName: 'T-shirt 4',
+      category: 'obuwie',
+      subcategory: 'eleganckie',
+      productName: 'Buty wizytowe',
       brand: 'Sun Tzu',
       pricePLN: 129,
       priceUSD: 39,
       photos: [
-        'http://localhost:3000/product-photos/man-t-shirt-4.jpg',
-        'http://localhost:3000/product-photos/man-t-shirt-3.jpg',
-        'http://localhost:3000/product-photos/man-t-shirt-4.jpg',
+        'http://localhost:3000/product-photos/man-shoes-1.jpg',
+        'http://localhost:3000/product-photos/man-shoes-2.jpg',
+        'http://localhost:3000/product-photos/man-shoes-3.jpg',
       ],
       description:
         'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.',
@@ -499,16 +473,15 @@ async function main() {
     {
       id: 14,
       gender: 'men',
-      category: 'odziez',
-      subcategory: 'koszulki',
-      productName: 'T-Shirt',
+      category: 'obuwie',
+      subcategory: 'eleganckie',
+      productName: 'Buty wizytowe',
       brand: 'Top Brand',
       pricePLN: 49,
       priceUSD: 10,
       photos: [
-        'http://localhost:3000/product-photos/man-t-shirt-1.jpg',
-        'http://localhost:3000/product-photos/man-t-shirt-4.jpg',
-        'http://localhost:3000/product-photos/man-t-shirt-3.jpg',
+        'http://localhost:3000/product-photos/man-shoes-4.jpg',
+        'http://localhost:3000/product-photos/man-shoes-5.jpg',
       ],
       description:
         'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.',
@@ -518,16 +491,16 @@ async function main() {
     {
       id: 15,
       gender: 'men',
-      category: 'odziez',
-      subcategory: 'koszulki',
-      productName: 'T-shirt 2',
+      category: 'obuwie',
+      subcategory: 'eleganckie',
+      productName: 'Buty wizytowe',
       brand: 'Sun Tzu',
       pricePLN: 199,
       priceUSD: 49,
       photos: [
-        'http://localhost:3000/product-photos/man-t-shirt-4.jpg',
-        'http://localhost:3000/product-photos/man-t-shirt-3.jpg',
-        'http://localhost:3000/product-photos/man-t-shirt-4.jpg',
+        'http://localhost:3000/product-photos/man-shoes-6.jpg',
+        'http://localhost:3000/product-photos/man-shoes-7.jpg',
+        'http://localhost:3000/product-photos/man-shoes-8.jpg',
       ],
       description:
         'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.',
@@ -537,16 +510,16 @@ async function main() {
     {
       id: 16,
       gender: 'men',
-      category: 'odziez',
-      subcategory: 'koszulki',
-      productName: 'T-shirt 3',
+      category: 'obuwie',
+      subcategory: 'eleganckie',
+      productName: 'Buty wizytowe',
       brand: 'Sun Tzu',
       pricePLN: 199,
       priceUSD: 49,
       photos: [
-        'http://localhost:3000/product-photos/man-t-shirt-3.jpg',
-        'http://localhost:3000/product-photos/man-t-shirt-4.jpg',
-        'http://localhost:3000/product-photos/man-t-shirt-1.jpg',
+        'http://localhost:3000/product-photos/man-shoes-3.jpg',
+        'http://localhost:3000/product-photos/man-shoes-2.jpg',
+        'http://localhost:3000/product-photos/man-shoes-1.jpg',
       ],
       description:
         'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.',
@@ -556,17 +529,13 @@ async function main() {
     {
       id: 17,
       gender: 'men',
-      category: 'odziez',
-      subcategory: 'koszulki',
-      productName: 'T-shirt 4',
+      category: 'obuwie',
+      subcategory: 'eleganckie',
+      productName: 'Buty wizytowe',
       brand: 'Sun Tzu',
       pricePLN: 129,
       priceUSD: 39,
-      photos: [
-        'http://localhost:3000/product-photos/man-t-shirt-4.jpg',
-        'http://localhost:3000/product-photos/man-t-shirt-3.jpg',
-        'http://localhost:3000/product-photos/man-t-shirt-4.jpg',
-      ],
+      photos: ['http://localhost:3000/product-photos/man-shoes-8.jpg'],
       description:
         'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.',
       maintenanceInfo:
@@ -575,16 +544,15 @@ async function main() {
     {
       id: 18,
       gender: 'men',
-      category: 'odziez',
-      subcategory: 'koszulki',
-      productName: 'T-Shirt',
+      category: 'obuwie',
+      subcategory: 'sportowe',
+      productName: 'Sportowe',
       brand: 'Top Brand',
       pricePLN: 49,
       priceUSD: 10,
       photos: [
-        'http://localhost:3000/product-photos/man-t-shirt-1.jpg',
-        'http://localhost:3000/product-photos/man-t-shirt-4.jpg',
-        'http://localhost:3000/product-photos/man-t-shirt-3.jpg',
+        'http://localhost:3000/product-photos/man-shoes-9.jpg',
+        'http://localhost:3000/product-photos/man-shoes-10.jpg',
       ],
       description:
         'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.',
@@ -594,16 +562,15 @@ async function main() {
     {
       id: 19,
       gender: 'men',
-      category: 'odziez',
-      subcategory: 'koszulki',
-      productName: 'T-shirt 2',
+      category: 'obuwie',
+      subcategory: 'sportowe',
+      productName: 'Sportowe',
       brand: 'Sun Tzu',
       pricePLN: 199,
       priceUSD: 49,
       photos: [
-        'http://localhost:3000/product-photos/man-t-shirt-4.jpg',
-        'http://localhost:3000/product-photos/man-t-shirt-3.jpg',
-        'http://localhost:3000/product-photos/man-t-shirt-4.jpg',
+        'http://localhost:3000/product-photos/man-shoes-11.jpg',
+        'http://localhost:3000/product-photos/man-shoes-12.jpg',
       ],
       description:
         'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.',
@@ -613,16 +580,15 @@ async function main() {
     {
       id: 20,
       gender: 'men',
-      category: 'odziez',
-      subcategory: 'koszulki',
-      productName: 'T-shirt 3',
+      category: 'obuwie',
+      subcategory: 'sportowe',
+      productName: 'Sportowe',
       brand: 'Sun Tzu',
       pricePLN: 199,
       priceUSD: 49,
       photos: [
-        'http://localhost:3000/product-photos/man-t-shirt-3.jpg',
-        'http://localhost:3000/product-photos/man-t-shirt-4.jpg',
-        'http://localhost:3000/product-photos/man-t-shirt-1.jpg',
+        'http://localhost:3000/product-photos/man-shoes-13.jpg',
+        'http://localhost:3000/product-photos/man-shoes-14.jpg',
       ],
       description:
         'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.',
@@ -632,16 +598,15 @@ async function main() {
     {
       id: 21,
       gender: 'men',
-      category: 'odziez',
-      subcategory: 'koszulki',
-      productName: 'T-shirt 4',
+      category: 'obuwie',
+      subcategory: 'sneakersy',
+      productName: 'Sneakersy',
       brand: 'Sun Tzu',
       pricePLN: 129,
       priceUSD: 39,
       photos: [
-        'http://localhost:3000/product-photos/man-t-shirt-4.jpg',
-        'http://localhost:3000/product-photos/man-t-shirt-3.jpg',
-        'http://localhost:3000/product-photos/man-t-shirt-4.jpg',
+        'http://localhost:3000/product-photos/man-shoes-11.jpg',
+        'http://localhost:3000/product-photos/man-shoes-12.jpg',
       ],
       description:
         'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.',
@@ -651,17 +616,13 @@ async function main() {
     {
       id: 22,
       gender: 'men',
-      category: 'odziez',
-      subcategory: 'koszulki',
-      productName: 'T-Shirt',
+      category: 'akcesoria',
+      subcategory: 'torby',
+      productName: 'Torba',
       brand: 'Top Brand',
       pricePLN: 49,
       priceUSD: 10,
-      photos: [
-        'http://localhost:3000/product-photos/man-t-shirt-1.jpg',
-        'http://localhost:3000/product-photos/man-t-shirt-4.jpg',
-        'http://localhost:3000/product-photos/man-t-shirt-3.jpg',
-      ],
+      photos: ['http://localhost:3000/product-photos/man-bag-1.jpg'],
       description:
         'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.',
       maintenanceInfo:
@@ -670,17 +631,13 @@ async function main() {
     {
       id: 23,
       gender: 'men',
-      category: 'odziez',
-      subcategory: 'koszulki',
-      productName: 'T-shirt 2',
+      category: 'akcesoria',
+      subcategory: 'torby',
+      productName: 'Torba',
       brand: 'Sun Tzu',
       pricePLN: 199,
       priceUSD: 49,
-      photos: [
-        'http://localhost:3000/product-photos/man-t-shirt-4.jpg',
-        'http://localhost:3000/product-photos/man-t-shirt-3.jpg',
-        'http://localhost:3000/product-photos/man-t-shirt-4.jpg',
-      ],
+      photos: ['http://localhost:3000/product-photos/man-bag-2.jpg'],
       description:
         'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.',
       maintenanceInfo:
@@ -689,17 +646,13 @@ async function main() {
     {
       id: 24,
       gender: 'men',
-      category: 'odziez',
-      subcategory: 'koszulki',
-      productName: 'T-shirt 3',
+      category: 'akcesoria',
+      subcategory: 'zegarki',
+      productName: 'Zegarek',
       brand: 'Sun Tzu',
       pricePLN: 199,
       priceUSD: 49,
-      photos: [
-        'http://localhost:3000/product-photos/man-t-shirt-3.jpg',
-        'http://localhost:3000/product-photos/man-t-shirt-4.jpg',
-        'http://localhost:3000/product-photos/man-t-shirt-1.jpg',
-      ],
+      photos: ['http://localhost:3000/product-photos/man-watch-1.jpg'],
       description:
         'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.',
       maintenanceInfo:
@@ -708,17 +661,28 @@ async function main() {
     {
       id: 25,
       gender: 'men',
-      category: 'odziez',
-      subcategory: 'koszulki',
-      productName: 'T-shirt 4',
+      category: 'akcesoria',
+      subcategory: 'zegarki',
+      productName: 'Zegarek',
       brand: 'Sun Tzu',
       pricePLN: 129,
       priceUSD: 39,
-      photos: [
-        'http://localhost:3000/product-photos/man-t-shirt-4.jpg',
-        'http://localhost:3000/product-photos/man-t-shirt-3.jpg',
-        'http://localhost:3000/product-photos/man-t-shirt-4.jpg',
-      ],
+      photos: ['http://localhost:3000/product-photos/man-watch-2.jpg'],
+      description:
+        'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.',
+      maintenanceInfo:
+        'Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu',
+    },
+    {
+      id: 25,
+      gender: 'men',
+      category: 'akcesoria',
+      subcategory: 'zegarki',
+      productName: 'Zegarek',
+      brand: 'Sun Tzu',
+      pricePLN: 129,
+      priceUSD: 39,
+      photos: ['http://localhost:3000/product-photos/man-watch-3.jpg'],
       description:
         'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.',
       maintenanceInfo:
