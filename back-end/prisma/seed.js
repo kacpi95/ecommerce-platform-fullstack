@@ -20,7 +20,7 @@ async function main() {
       category: 'obuwie',
       subcategory: 'eleganckie',
       productName: 'Szpilki',
-      brand: 'Test producent',
+      brand: 'Sun zi',
       pricePLN: 49,
       priceUSD: 10,
       photos: [
@@ -39,7 +39,7 @@ async function main() {
       category: 'obuwie',
       subcategory: 'eleganckie',
       productName: 'Szpilki',
-      brand: 'Inny proucent',
+      brand: 'Sun zi',
       pricePLN: 149,
       priceUSD: 39,
       photos: [
@@ -692,7 +692,7 @@ async function main() {
       category: 'obuwie',
       subcategory: 'eleganckie',
       productName: 'Szpilki',
-      brand: 'Test producent',
+      brand: 'Sun zi',
       pricePLN: 49,
       priceUSD: 10,
       photos: [
@@ -708,7 +708,7 @@ async function main() {
       category: 'obuwie',
       subcategory: 'eleganckie',
       productName: 'Szpilki',
-      brand: 'Inny proucent',
+      brand: 'Sun zi',
       pricePLN: 149,
       priceUSD: 39,
       photos: ['http://localhost:3000/product-photos/women-shoes-4.jpg'],
@@ -756,7 +756,7 @@ async function main() {
       category: 'obuwie',
       subcategory: 'eleganckie',
       productName: 'Szpilki',
-      brand: 'Test producent',
+      brand: 'Sun zi',
       pricePLN: 49,
       priceUSD: 10,
       photos: [
@@ -775,7 +775,7 @@ async function main() {
       category: 'obuwie',
       subcategory: 'sportowe',
       productName: 'Sportowe',
-      brand: 'Test producent',
+      brand: 'Sun zi',
       pricePLN: 299,
       priceUSD: 59,
       photos: [
@@ -794,7 +794,7 @@ async function main() {
       category: 'obuwie',
       subcategory: 'sneakersy',
       productName: 'Sneakersy',
-      brand: 'Test producent',
+      brand: 'Sun zi',
       pricePLN: 299,
       priceUSD: 59,
       photos: [
@@ -813,7 +813,7 @@ async function main() {
       category: 'akcesoria',
       subcategory: 'torby',
       productName: 'Torebka',
-      brand: 'Test producent',
+      brand: 'Sun zi',
       pricePLN: 299,
       priceUSD: 59,
       photos: [
@@ -832,7 +832,7 @@ async function main() {
       category: 'akcesoria',
       subcategory: 'torby',
       productName: 'Torebka',
-      brand: 'Test producent',
+      brand: 'Sun zi',
       pricePLN: 299,
       priceUSD: 59,
       photos: ['http://localhost:3000/product-photos/women-bag-4.jpg'],
@@ -847,7 +847,7 @@ async function main() {
       category: 'akcesoria',
       subcategory: 'zegarki',
       productName: 'Zegarek',
-      brand: 'Test producent',
+      brand: 'Sun zi',
       pricePLN: 299,
       priceUSD: 59,
       photos: [
@@ -865,7 +865,7 @@ async function main() {
       category: 'akcesoria',
       subcategory: 'zegarki',
       productName: 'Zegarek',
-      brand: 'Test producent',
+      brand: 'Sun zi',
       pricePLN: 299,
       priceUSD: 59,
       photos: [
@@ -940,7 +940,7 @@ async function main() {
       category: 'obuwie',
       subcategory: 'eleganckie',
       productName: 'Szpilki',
-      brand: 'Inny proucent',
+      brand: 'Sun zi',
       pricePLN: 149,
       priceUSD: 39,
       photos: [
@@ -997,7 +997,7 @@ async function main() {
       category: 'obuwie',
       subcategory: 'eleganckie',
       productName: 'Szpilki',
-      brand: 'Test producent',
+      brand: 'Sun zi',
       pricePLN: 49,
       priceUSD: 10,
       photos: ['http://localhost:3000/product-photos/women-shoes-4.jpg'],
@@ -1012,7 +1012,7 @@ async function main() {
       category: 'obuwie',
       subcategory: 'eleganckie',
       productName: 'Szpilki',
-      brand: 'Inny proucent',
+      brand: 'Sun zi',
       pricePLN: 149,
       priceUSD: 39,
       photos: [
@@ -1067,7 +1067,7 @@ async function main() {
       category: 'obuwie',
       subcategory: 'eleganckie',
       productName: 'Szpilki',
-      brand: 'Inny proucent',
+      brand: 'Sun zi',
       pricePLN: 149,
       priceUSD: 39,
       photos: [
